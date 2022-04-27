@@ -1,0 +1,11 @@
+---
+# vars file for flux
+flux_platform: '{{ flux_os }}_{{ flux_arch }}'
+flux_name: flux_{{ flux_ver }}_{{ flux_platform }}
+flux_archive: '{{ flux_name }}.{{ flux_archive_type | default("tar.gz") }}'
+flux_url: '{{ flux_mirror }}/v{{ flux_ver }}/{{ flux_archive }}'
+flux_tmp_archive: /tmp/{{ flux_archive }}
+flux_checksum: '{{ flux_checksums[flux_ver][flux_platform] }}'
+flux_install_dir: '{{ flux_parent_install_dir }}/{{ flux_name }}'
+flux_install_exe: '{{ flux_install_dir }}/flux'
+flux_install_link: '{{ flux_parent_install_dir }}/bin/flux'
