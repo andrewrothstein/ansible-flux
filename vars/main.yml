@@ -1,5 +1,7 @@
 ---
 # vars file for flux
+flux_os: '{{ ansible_system | lower }}'
+flux_arch: '{{ flux_arch_map[ansible_architecture] }}'
 flux_platform: '{{ flux_os }}_{{ flux_arch }}'
 flux_name: flux_{{ flux_ver }}_{{ flux_platform }}
 flux_archive: '{{ flux_name }}.{{ flux_archive_type | default("tar.gz") }}'
