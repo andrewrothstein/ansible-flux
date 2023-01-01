@@ -1,6 +1,6 @@
 ---
 # defaults file for flux
-flux_ver: 0.36.0
+flux_ver: 0.38.2
 flux_mirror: https://github.com/fluxcd/flux2/releases/download
 flux_arch_map:
   386: 386
@@ -113,3 +113,20 @@ flux_checksums:
     windows_arm64: sha256:e051dce0d7d6cc3c58dc489875f197924d091d8a3e1d2bf6c93c75dc325b6a25
     # https://github.com/fluxcd/flux2/releases/download/v0.36.0/flux_0.36.0_windows_386.zip
     windows_386: sha256:1f23abe475b3756fe965e019b9638c7d036bd5dfedd65455e0b66260c5fe8cfe
+  '0.38.2':
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:3006ac9d909f585b6f5bce1acb54ea8b41bc1b512334f0f0e10a7859e0bc35ff
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:e95ca02dd9440416768d104b16f94d76ba674249502e6c0adcab32955da82e79
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_linux_amd64.tar.gz
+    linux_amd64: sha256:98b4df1f39bc509f3974bbd9d00c91143a1a5cd39fb10fab03911ff713cf8b01
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_linux_arm64.tar.gz
+    linux_arm64: sha256:6b63010027b05391480e1b600622ea80d7104f78a91c2caa5c91660b3a847d57
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_linux_arm.tar.gz
+    linux_arm: sha256:a8f18f67f2f5e4566a934ce08389a1353e46ee22aa9ed28724e776fc7bb48137
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_windows_amd64.zip
+    windows_amd64: sha256:341c28fcb5132acc22c8d5f63bcc3790459fd3b65ebb6baaef201f7603192076
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_windows_arm64.zip
+    windows_arm64: sha256:16446afea420234caa781025af51fb39d8faceb29ce1a7b87a5cff1a71e4b464
+    # https://github.com/fluxcd/flux2/releases/download/v0.38.2/flux_0.38.2_windows_386.zip
+    windows_386: sha256:3c8c28fac2ffe11a0455333267d7b37a90ba492cc798a386c7138d6fed5710bc
