@@ -37,4 +37,4 @@ dl_ver() {
     dl $ver windows 386 zip
 }
 
-dl_ver ${1:-0.38.2}
+dl_ver ${1:-0.40.0}
