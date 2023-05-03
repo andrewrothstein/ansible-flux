@@ -1,6 +1,6 @@
 ---
 # defaults file for flux
-flux_ver: 0.41.2
+flux_ver: 2.0.0-rc.1
 flux_mirror: https://github.com/fluxcd/flux2/releases/download
 flux_arch_map:
   386: 386
@@ -181,3 +181,20 @@ flux_checksums:
     windows_arm64: sha256:d0e2ad2410848d357aedee8a9b4ee2677f326faef7c4d6cd627d1ca9b38eaebd
     # https://github.com/fluxcd/flux2/releases/download/v0.41.2/flux_0.41.2_windows_386.zip
     windows_386: sha256:686228dd861a399e91916bf8c221aa1184d89415347fd07b03531f6970c0e2e1
+  '2.0.0-rc.1':
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:a43845970aaa26a5f8c882be90a7eb6febfdbc0d4119ba167477994701c9715a
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:bc66c97faaade7c649b2d0f650fcf71d52f113fe2c2719b212aefedb478b7c1c
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_linux_amd64.tar.gz
+    linux_amd64: sha256:e8db99c8b4cdfc1540384aa8a2e72aba49f20e4515fd7b4eb24c225e23110c0f
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_linux_arm64.tar.gz
+    linux_arm64: sha256:040d64cfed05507c43855fccfe28821bcca857b878ff42bf920280a76165f0ba
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_linux_arm.tar.gz
+    linux_arm: sha256:fc1be530c4ff73f72f5683d4e2cebb2c0901c9a0c720cca2cd56a69ff5b8ae0e
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_windows_amd64.zip
+    windows_amd64: sha256:97d87586b9b211ba125db62a72d65ad572f717245131b9a459fd1817d5a70117
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_windows_arm64.zip
+    windows_arm64: sha256:3c7cd4b7aa8c6c9d35de19188f6bb9729a95eb12a97dbcb270e912837a7d3024
+    # https://github.com/fluxcd/flux2/releases/download/v2.0.0-rc.1/flux_2.0.0-rc.1_windows_386.zip
+    windows_386: sha256:27db97c3647967937ab854687368c557d68a2d19ced5201ed31e12db419a1050
